@@ -100,7 +100,7 @@ def main():
     print("✅ All 5-Min Intraday Data Uploaded Successfully")
 
 if __name__ == "__main__":
-    if is_market_open():
-        main()
-    else:
-        print("Market is currently closed. Skipping data fetch to save minutes.")
+    # Temporarily forcing the script to run for a late-night test!
+    print("Bypassing market hours for a test run...")
+    main()
+
